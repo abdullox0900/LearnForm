@@ -1,0 +1,163 @@
+/* ----GENERALS---- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: darkgray;
+}
+
+img {
+    display: inline-block;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+/* ----LEARN-SECTION---- */
+
+.learn-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.left-learn-box {
+    width: 500px;
+}
+
+.left-learn-title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 49px;
+    color: #fff;
+}
+
+.left-learn-subtitle {
+    margin: 0;
+    color: #fff;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+/* ----FORM---- */
+
+.right-learn-box-shadoff {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 0px 0px;
+}
+
+.right-learn-box-text {
+    padding: 20px 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #5D54A3;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.right-learn-desc {
+    margin: 0;
+    font-weight: 600;
+    color: #fff;
+}
+
+.right-learn-link {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+
+/* --Input-- */
+
+.form-learn-shadoff {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 0px 0px;
+}
+
+.learn-form {
+    width: 550px;
+    padding: 35px 35px 45px 35px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.learn-input {
+    display: flex;
+    width: 100%;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border: 1px solid #d8d4d4;
+    border-radius: 5px;
+    outline: none;
+}
+
+.learn-input::placeholder {
+    color: #868688;
+    font-weight: 600;
+}
+
+.learn-input:focus {
+    border: 1px solid rgb(31, 30, 30);
+}
+
+/* --Buttom-- */
+
+.learn-btn {
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #36CC8C;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.learn-btn:hover {
+    background-color: #1ea76b;
+}
+
+.learn-btn:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px 0px 20px 0px inset;
+}
+
+.form-text {
+    margin: 0;
+    color: #CECDD2;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form-learn-link {
+    color: #da6f72;
+    font-weight: 600;
+    text-decoration: none;
+}
